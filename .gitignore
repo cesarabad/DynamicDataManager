@@ -1,0 +1,86 @@
+# ========================
+# Visual Studio / MSVC
+# ========================
+
+.vs/
+*.user
+*.userosscache
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Visual Studio Code / JetBrains
+.vscode/
+.idea/
+
+# ========================
+# Build results
+# ========================
+
+# Build folders (Debug / Release)
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# MSVC intermediate files
+*.obj
+*.idb
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.manifest
+*.res
+*.tlog
+*.lastbuildstate
+*.pch
+
+# ========================
+# CMake / other build tools
+# ========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+out/
+*.cmake
+
+# ========================
+# Logs / temporary files
+# ========================
+*.log
+*.tmp
+*.temp
+
+# ========================
+# Crash dumps
+# ========================
+*.dmp
+
+# ========================
+# OS generated files
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ========================
+# Optional: ignore all build folders recursively
+# ========================
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/build/
+**/out/
